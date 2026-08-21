@@ -1,2 +1,4 @@
 # tty-echo-server
 A simple server running in a Linux terminal (console). It allows you to enter and emulate commands, the tokens for which are provided in a special dictionary file.
+
+Программа-сервер запускается в терминале Linux. Он ожидает ввода тех или иных символов, например, команд, приведенных в файле-словаре vocabulary.txt. Если соответствующая команда есть в словаре, то сервер вернет "результат ее обработки". Если нет, выдаст сообщение, что такой команды нет. 
